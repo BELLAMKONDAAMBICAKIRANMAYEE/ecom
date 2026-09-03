@@ -1,6 +1,7 @@
 * {
     margin: 0%;
     /* border:1px solid red; */
+    font-family: sans-serif;
 }
 
 .navbar {
@@ -14,7 +15,7 @@
 .navbar a {
     color: #060606;
     font-size: 20px;
-    font-family: sans-serif;
+
     text-decoration: none;
 }
 
@@ -38,7 +39,66 @@
     color: #e71b3d;
     border: 1px solid #e71b3d;
 }
+
 /* input::placeholder{
     color:green;
     font-size: 30px;
 } */
+/* home */
+#home {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJgQUC0U2c7KhThC6PgbmIgDy6nj8gfibsVQLazmDhy8Coa4RvrK0kZ680&s=10');
+    width: 100vw;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+
+#home h1 {
+    text-align: center;
+    font-size: 60px;
+
+}
+
+#home button {
+    margin-left: 46%;
+    background-color: #e71b3d;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
+#leftcontent {
+    width: 50%;
+}
+
+#rightcontent {
+    width: 50%;
+}
+
+#leftcontent button {
+    background-color: #e71b3d;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+
+#leftcontent p {
+    line-height: 40px;
+}
+
+#rightcontent img {
+    margin-left: 30%;
+}
